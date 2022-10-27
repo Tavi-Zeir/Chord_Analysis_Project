@@ -98,5 +98,5 @@ class DataImport:
 
 
 if __name__ == '__main__':
-    data_import = DataImport('P@ssw0rd939')  # Password here
+    data_import = DataImport('')  # Password here
     data_import.first_pass(start=160)
