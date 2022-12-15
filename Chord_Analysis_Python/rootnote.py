@@ -23,5 +23,5 @@ class RootNote(Enum):
     @classmethod
     def get_note_id(cls, note_name):
         for note in cls:
-            if note_name == note.name or note.other_name:
+            if note_name == note.name or note_name == note.other_name:
                 return note.note_id
